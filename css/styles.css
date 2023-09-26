@@ -1,0 +1,120 @@
+
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+body {
+    background-color: #141225;
+}
+
+.skinss {
+
+margin-left: 750px;
+
+}
+  .espacio-blanco {
+    height: 30px;
+    width: 100%;
+  }
+  .skinss2 {
+    color: white;
+    position: right;
+  margin-left: 1500px;
+  height: 50px;
+  }
+  .ruleta {
+    color: white;
+    margin-left:850px;
+  }
+  .espacio-blanco2 {
+    height: 100px;
+  }
+  body {
+    background-size: cover;
+
+  }
+  #imagen {
+    max-width: 400px;
+    max-height: 350px;
+  }
+  body header {
+    background-image: url(../img/fondobarra.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    align-items: stretch;
+  }
+  body nav {
+    height: 200px;
+  }
+  body nav .container h1 {
+    color: #42da14;
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+  }
+  body nav h3 {
+    color: #69F689;
+    font-family: "Satisfy", cursive;
+  }
+  body nav .logo {
+    height: 80px;
+    width: 80px;
+  }
+  body nav .container-fluid {
+    margin-top: -25px;
+  }
+  body nav .navbar-nav {
+    z-index: 3;
+    position: absolute;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+  }
+  body nav .navbar-nav a {
+    color: white;
+  }
+  
+  body footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    background: rgba(8, 64, 148, 0.7);
+    
+  }
+  body footer .fotito {
+    display: flex;
+    gap: 100px;
+  }
+  body footer .fotito .fotitochica {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+  margin-left: 400px;
+
+  }
+  body footer .copyrigth {
+    margin-top: 40px;
+ margin-left: 750px;
+    text-transform: none;
+    color: #69F689;
+    font-size: 10px;
+  }
+  h1 {
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#resultado {
+    font-size: 24px;
+    margin-top: 20px;
+    
+
+    
+       
+}
+
+  

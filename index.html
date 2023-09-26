@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Lanzamiento de Dados</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<header>
+    <header class="d-flex justify-content-center align-items-center">
+        <!----------------------------------------------------------------------- MENU INTERACTIVO ----------------------------------------------------->
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container d-flex justify-content-center align-items-center ">
+          <a href=""> <img class="logo" src="./img/logo.png" alt="logo"></a>
+          </div>
+          <div class="container">
+            <div class="container d-flex justify-content-center align-items-center">
+              <h1 class="animate__animated animate__bounceIn"> SkinThrow</h1>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center">
+            </div>
+          </div>
+          <div class="container-fluid ">
+              <button class="navbar-toggler btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="./index.html">Inicio</a>
+                <a class="nav-link" href="./pages/perfil.html">Perfil</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+
+</header>
+<body>
+    <div class="skinss2">
+        <h3 id="textosaldo">Ingresa tu saldo:</h3>
+    
+        <input type="number" id="saldo">
+        
+        <button id="saldoboton" onclick="ingresarSaldo()">Cargar Saldo</button>
+       
+        <p>Tu saldo es: $ <span id="resultado">0</span></p></div>
+  
+<div class="espacio-blanco2"></div>
+<div class="skinss">
+    <h1>Skins de Counter Strike</h1>
+</div>
+<div class="espacio-blanco2"></div>
+    
+   <div class="ruleta">
+    <h2> Caja Revolution</h2>
+    
+    <div id="imagen-container">
+ 
+        <img id="imagen" src="img/caja.png" alt="Imagen Aleatoria">
+  
+    
+        <div class="espacio-blanco"></div>
+    <button id="abrir-caja">Abrir</button></div> 
+    <div class="espacio-blanco2"></div>
+    <script src="script.js"></script></div> 
+    
+    <footer>
+        <div class="fotito">
+          <a href="https://www.facebook.com"
+            ><img class="fotitochica" src="./img/facebook.png" alt="facebook"
+          /></a>
+          <a href="https://www.twitter.com"
+            ><img class="fotitochica" src="./img/gorjeo.png" alt="twitter"
+          /></a>
+          <a href="https://www.instagram.com"
+            ><img class="fotitochica" src="./img/instagram.png" alt="instagram"
+          /></a>
+        </div>
+      
+        <p class="copyrigth">
+          © 2023 SkinThrow inc. Todos los derechos reservados •
+          Términos de Uso Política de Privacidad
+        </p>
+      
+      </footer>
+</body>
+
+</html>
